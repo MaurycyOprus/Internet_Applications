@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- dodając link przed stylem wczytuje się reguła za stylu w html-->
+    <!-- dodając link po stylu wczytuję się reguła zawarta w pliku style.css -->
+    <meta charset="utf-8">
+    <style>
+        * { font-family: Tahoma }
+        body { margin: 5em 10em 5em 10em;            
+            background-image: url(books.png); 
+            background-repeat: repeat-y }
+        p { text-align: justify }
+        img {border-style: solid; border-color: blue;}
+        h1{color: yellow; }
+        /* dodanie !import powoduje użycie koloru żółtego */
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" title="Arkusz stylów CSS">
+    <title>Trzy portrety Kuczyńska-Kwapisz</title>
+    <meta name="author" content="Jadwiga Kuczyńska-Kwapisz">
+    <meta name="description" content="opis książki">
+    <meta name="robots" content="index, nofollow">
+</head>
+<body>
+ <h1 style="color: red;">Trzy portrety</h1>
+ <!-- po usunięciu !important przy yellow priorytet ma kolor czerwony -->
+ <h2>Jadwiga Kuczyńska-Kwapisz</h2>
+ <table>
+ <tr>
+ <td>
+ <img src="https://grafik.tworze.com/img/book-01.jpg" alt="tutaj zdjęcie okładki">
+ </td>
+ <td>
+ <ul>
+ <li><b>wydawnictwo</b>: <u>Wydawnictwo Akadamii Pedagogiki Specjalnej</u>
+ <li><b>liczba stron</b>: 234
+ <li><b>okładka</b>: miękka
+ <li><span id = "cena"><b>cena</b>: 39,99</span>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2">
+ <p class="wstęp">Publikacja wydana w 2004 roku przez Wydawnictwo APS jest pozycją tyleż aktualną, co niezwykłą. Jest to książka bardzo “kobieca”, pisana przez kobiety – publicystki, jej bohaterkami są także kobiety: nadzwyczajne, utalentowane i twórcze. Ich wspólną cechą jest to, że wbrew dotkliwej niepełnosprawności nie pogodziły się z losem, nie zaprzestały walki o siebie, wytrwale rozwijając pasje i zainteresowania, które doprowadziły je do mistrzostwa w dziedzinie sztuki.</p>
+ <p>Dlatego ta publikacja powinna być dedykowana wszystkim tym, nie tylko kobietom, którzy codziennie zmagają się z byciem niewidomym czy niedowidzącym. Daje bowiem nadzieję, wiarę we własne siły i olbrzymi zastrzyk pozytywnej energii.</p>
+ <p>We wstępie Jadwiga Kuczyńska-Kwapisz pisze o tym, że w naszej rzeczywistości życie kobiety niewidomej jest o wiele trudniejsze niż niewidomego mężczyzny. Kobieta musi zadbać nie tylko o pracę zarobkową, ale także często o wychowanie dzieci, a zazwyczaj zostaje wówczas sama. Paradoksalnie jednak dlatego właśnie niewidome czy słabowidzące panie muszą wykazać się olbrzymią siłą woli i charakteru, rozwijając w sobie wiele zalet, które w normalnej sytuacji pozostałyby być może ukryte. Taka właśnie chęć życia, zaistnienia, zamanifestowania własnej osobowości jest znamienna dla bohaterek trzech naszych opowieści.</p>
+ <p>Małgorzata Paplińska przedstawia nam sylwetkę wybitnej polskiej sopranistki, Jolanty Kaufman. Zdiagnozowane we wczesnym dzieciństwie zwłóknienie pozasoczewkowe nie ograniczyło jednak spontaniczności i ekspresywnego temperamentu dziewczynki. Pani Jolanta miała wiele szczęścia, iż trafiła do szkoły w Laskach, gdzie wcześnie dostrzeżono jej talent wokalny i troskliwie zaczęto go rozwijać w śpiewie chóralnym, a potem w występach indywidualnych. Marzeniem sławnej dziś artystki było bowiem od dziecka śpiewanie i poświęciła temu celowi z wielkim samozaparciem dosłownie całe życie. Po wielu perypetiach trafiła na wydział wokalny przyjaznej niepełnosprawnym Akademii Muzycznej w Poznaniu, co było spełnieniem jej pragnień. Dzięki niezaprzeczalnemu talentowi, ale i wielkiemu nakładowi pracy własnej Jolanta Kaufman jest dziś słynną śpiewaczką. Warsztat pracy prawie niewidomego muzyka nie jest łatwy. Pani Kaufman korzysta z pomocy optycznych i dyktafonu, ale też z tzw. pamięci ciała – zapamiętując dźwięki na podstawie wibracji własnych strun głosowych. Osobną sprawą było nauczenie się poruszania na scenie i współpracy z akompaniamentem orkiestry. Ta drobnej budowy śpiewaczka specjalizuje się w niezwykle trudnym gatunku, jakim jest muzyka oratoryjno-kantatowa. Możemy jednak słuchać jej głosu także w repertuarze Moniuszki czy Mozarta. Jolanta Kaufman dzięki sile woli, wytrwałości i samodyscyplinie firmuje dziś własnym nazwiskiem muzykę polską także poza granicami naszego kraju.</p>
+ </td>
+ </tr>
+ </table>
+</body>
+</html>
